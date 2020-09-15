@@ -1,6 +1,6 @@
 function timer() {
     var date1 = new Date();
-    var date2 = new Date("03/11/2020");
+    var date2 = new Date("12/31/2019");
     var timeDiff = Math.abs(date2.getTime() - date1.getTime());
     var timeDiffInSecond = (timeDiff / 1000);
     
