@@ -1,89 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Libre+Barcode+128+Text&family=Libre+Barcode+39+Extended+Text&family=Megrim&family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Libre+Barcode+128+Text&family=Libre+Barcode+39+Extended+Text&family=Megrim&family=Ubuntu:wght@300&display=swap");
 
-body{
-    font-family: 'Libre Barcode 128 Text', cursive;
-    margin: 0;
-    background-image:
-      url("https://images.unsplash.com/photo-1585559605151-d4da31836a99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
-    background-size: cover;
-    background-position: center center;
-    min-height: 90vh;
-    min-width: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
+body {
+  font-family: "Libre Barcode 128 Text", cursive;
+  margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1585559605151-d4da31836a99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  min-width: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.heading{
-    color: whitesmoke;
-    font-size: 170px;
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-    justify-content: center;
-    margin: 10px;
+.heading {
+  color: whitesmoke;
+  font-size: 170px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  flex-wrap: wrap;
 }
 
-.since{
-    color: whitesmoke;
-    font-size: 15px;
-    font-family: 'Ubuntu', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    margin: 10px;
+.since {
+  color: whitesmoke;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
 
-.date{
-    color: whitesmoke;
-    font-size: 60px;
-    font-family: 'Libre Barcode 128 Text', cursive;
-    color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    margin: 10px;
+.date {
+  color: whitesmoke;
+  font-size: 60px;
+  font-family: "Libre Barcode 128 Text", cursive;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
 
-p{
-    margin: -20px 25px
+p {
+  margin: -20px 15px;
 }
 
-.subtitle{
-    color: whitesmoke;
-    font-size: 15px;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 10px;
-    align-items: top; 
+.subtitle {
+  color: whitesmoke;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 10px;
+  align-items: top;
 }
 
-.days-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
+.days-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.hours-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
+.hours-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.minutes-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
+.minutes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.seconds-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
+.seconds-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
